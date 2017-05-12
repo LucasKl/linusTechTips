@@ -1,0 +1,31 @@
+body {
+    background-color: #528ecc;
+	height: 100vh;
+    margin: 0;
+}
+
+.linus {
+	position: relative;
+    width: 20vw;
+ 	height: 100vh;
+	float: left;
+}
+
+.linusImg {
+	margin-top: 40vh;
+	height: 59vh;
+}
+
+.text {
+	background-color: #dd988a;
+	position: relative;
+	height: 78vh;
+	width: 60vw;
+	margin: 5vh 0 5vh 10vw;
+	float: left;
+	padding: 6vh;
+	font-size: 10vh;
+	font-color: #393939;
+	font-family: helvetica;
+}
+

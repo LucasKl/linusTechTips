@@ -8,7 +8,7 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="style.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -20,13 +20,17 @@
 </head>
 
 <body>
-   Hello!
-
+	<div class="linus">
+		<img src="../images/linus-solo.png" class="linusImg"/>
+	</div>
+	<div id="textbox" class="text">
+		
+	</div>
 
         <script>
             var rules = erratic.parse(spec);
             var list = erratic.generate(rules, 'bSentence');
-            alert(list);
+            document.getElementById('textbox').innerText = list;
         </script>
 </body>
 </html>

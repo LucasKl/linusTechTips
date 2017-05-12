@@ -17,7 +17,7 @@ let spec=`<bSentence> ::=
 "Hat jemand "<gamez>" auf USB?" |
 "Hat jemand "<gamez>" auf "<bOS>" zum laufen gebracht?" |
 "Läuft "<gamez>" auf deinem "<bOS>"? Hab auf "<techSite>" gelesen, dass es funzen soll." |
-"Hab meiner Mutter "<bOS>" auf ihrem Netbook installiert ROFL!" |
+"Hab meiner Mutter "<bOS>" auf ihrem Netbook installiert. Anscheinend habe ich einen DAU in der Familie. ROFL!" |
 "Ich sauge mir ebend die neue Folge von "<anime>"." |
 <complexType>" ist der schlechteste Algorithmus todo" |
 "Ich habe in der letzten Vorlesung "<complexType>" nicht ganz verstanden, aber in "<bLang>" mit "<bTech>" brauch ichs eh nicht." |
