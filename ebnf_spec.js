@@ -19,7 +19,6 @@ let spec=`<bSentence> ::=
 "Läuft "<gamez>" auf deinem "<bOS>"? Hab auf "<techSite>" gelesen, dass es funzen soll." |
 "Hab meiner Mutter "<bOS>" auf ihrem Netbook installiert. Anscheinend habe ich einen DAU in der Familie. ROFL!" |
 "Ich sauge mir ebend die neue Folge von "<anime>"." |
-<complexType>" ist der schlechteste Algorithmus todo" |
 "Ich habe in der letzten Vorlesung "<complexType>" nicht ganz verstanden, aber in "<bLang>" mit "<bTech>" brauch ichs eh nicht." |
 "Ich finde "<brand>" besser als "<brand>" weil die Unterstützung für "<bTech>" besser ist." |
 "Ich schlage vor wir benutzen "<cloud>" anstatt git für die Übungszettel";
