@@ -1,5 +1,5 @@
-var topLvlRule = "list";
-var rules = erratic.parse('<list>  ::=  "<" <items> ">";<items> ::=  <items> " " <item> | <item>;<item> ::= "foo" | "bar" | "baz" | <list> ;');
+var topLvlRule = "bSentence";
+var rules = erratic.parse(spec);
 $(window).load(function(){
     console.log("hello world");
     console.log("parsing up grammar");
