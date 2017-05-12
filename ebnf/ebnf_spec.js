@@ -1,5 +1,5 @@
-<bSentence> ::= 
-"Dürfen wir für" <aufgabe> "auch" <bTech> "verwenden?" |
+let spec=`<bSentence> ::= 
+"Dürfen wir für "<aufgabe>" auch "<bTech>" verwenden?" |
 "Gibt es auch ein buildscript für "<bOS>"?" |
 "So nervig, in "<bLang>" ginge das viel easier." |
 "So was habe ich auch mal in "<bLang>" implementiert." |
@@ -18,8 +18,8 @@
 "Hat jemand "<gamez>" auf "<bOS>" zum laufen gebracht?" |
 "Läuft "<gamez>" auf deinem "<bOS>"? Hab auf "<techSite>" gelesen, dass es funzen soll." |
 "Hab meiner Mutter "<bOS>" auf ihrem Netbook installiert ROFL!" |
-"Ich sauge mir ebend die neue Folge von "<anime>." |
-<complexType>" ist der schlechteste Algorithmus //todo" |
+"Ich sauge mir ebend die neue Folge von "<anime>"." |
+<complexType>" ist der schlechteste Algorithmus todo" |
 "Ich habe in der letzten Vorlesung "<complexType>" nicht ganz verstanden, aber in "<bLang>" mit "<bTech>" brauch ichs eh nicht." |
 "Ich finde "<brand>" besser als "<brand>" weil die Unterstützung für "<bTech>" besser ist." |
 "Ich schlage vor wir benutzen "<cloud>" anstatt git für die Übungszettel";
@@ -27,7 +27,7 @@
 <brand> ::= "Apple" | "Lenovo" | "Alienware" | "Razer" | "Microsoft" | "Burger King" | "KFC" | "SUSE" | "Blizzard" |" Riot";
 <serie> ::= "Game of Thrones" | "Yu-Gi-Oh" | "Naruto";
 <techSite> ::= "golem" | "heise" | "chip.de" | "Computer Bild" | "4chan" | "9gag" | "Fefes Blog" | "StackOverflow" | "Twitch" | "w3c schools" | "reddit" | "gutefrage.net";
-<bLang> ::= "perl" | "javascript" | "vb.net" | "processing" | "erlang" | "scheme" | "visual basic" |"LaTeX" | "excel" | "php" | "powershell"I"Pascal"I"c"I"c++"I "haskell";
+<bLang> ::= "perl" | "javascript" | "vb.net" | "processing" | "erlang" | "scheme" | "visual basic" |"LaTeX" | "excel" | "php" | "powershell" | "Pascal" | "c" | "c++" | "haskell";
 <bTech> ::= "framework" | "intelli J" | "blue J"  | "regex" | "php storm" | "vim" | "emacs" | "NFC";
 <bOS> ::= "Ubuntu" | "Arch" | "Gentoo" | "Backtrack Linux" | "FreeBSD" | "OpenBSD";
 <gamez> ::= "LoL" | "Dota" | "Overwatch" | "Heartstone" | "CS:GO" | "Minecraft";
