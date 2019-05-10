@@ -22,7 +22,7 @@ let spec=`<bSentence> ::=
 "Ich habe in der letzten Vorlesung "<complexType>" nicht ganz verstanden, aber in "<bLang>" mit "<bTech>" brauch ichs eh nicht." |
 "Ich finde "<brand>" besser als "<brand>" weil die Unterstützung für "<bTech>" besser ist." |
 "Ich schlage vor wir benutzen "<cloud>" anstatt git für die Übungszettel" |
-"Wer kennt <chatservice>? Suche ne neue community für <gamez>.";
+"Wer kennt "<chatservice>"? Suche ne neue community für "<gamez>".";
 
 <brand> ::= "Apple" | "Lenovo" | "Alienware" | "Razer" | "Microsoft" | "Burger King" | "KFC" | "SUSE" | "Blizzard" |" Riot";
 <serie> ::= "Game of Thrones" | "Yu-Gi-Oh" | "Naruto";
