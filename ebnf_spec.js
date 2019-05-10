@@ -35,9 +35,9 @@ let spec=`<bSentence> ::=
 <baseType> ::= "Boolean" | "int" | "float" | "String";
 <complexType> ::= "Rot-Schwarz-Baume" | "Regex" | "Binärbaume" | "Ringbuffer" | "Einfach-Verkettete-Liste" | "Algebraischen Datentypen" | "DLL";
 <zeit> ::= "Letzte Woche" | "Gestern Nacht" | "Letztes Wochenende" | "Damals in der 10ten" | "Im ersten Semester" | "Bei der letzten ONOC" | "In den Semesterferien";
-<jsFrameworkName> ::= "node" | "jquery" | "javapoly" | "react" | "redux" | "ember" | "browserify" | "bootstrap" | "handle-bar" | "mustache" | "require" | "beefy";
-<jsFramework> ::= <jsFrameworkName>".js";
 <framework> ::= "spring" | <jsFramework> | "primefaces" | "template haskell" | "spray" | "akka" | "couchDB" | "ElasticSearch" | "wordpress" | "MariaDB" | "MongoDB";
+<jsFramework> ::= <jsFrameworkName>".js";
+<jsFrameworkName> ::= "node" | "jquery" | "javapoly" | "react" | "redux" | "ember" | "browserify" | "bootstrap" | "handle-bar" | "mustache" | "require" | "beefy";
 <food> ::= "Bifi" | "Bifi-Roll" | "Carazza" | "Doritos" | "Pizza";
 <fritzProdukt> ::= "kola" | "melone" | "kaffe kola" | "orange" | "misch-masch" | "mate";
 <drink> ::= "Matcha" | "Club Mate" | "Club Mate Granat" | "Fritz" <fritzProdukt> | "kaffee" | "Frappochino";
