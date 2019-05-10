@@ -24,19 +24,19 @@ let spec=`<bSentence> ::=
 "Ich schlage vor wir benutzen "<cloud>" anstatt git für die Übungszettel" |
 "Wer kennt "<chatservice>"? Suche ne neue community für "<gamez>".";
 
-<brand> ::= "Apple" | "Lenovo" | "Alienware" | "Razer" | "Microsoft" | "Burger King" | "KFC" | "SUSE" | "Blizzard" |" Riot";
+<brand> ::= "Apple" | "Lenovo" | "Alienware" | "Razer" | "Microsoft" | "Burger King" | "KFC" | "SUSE" | "Blizzard" | "Riot";
 <serie> ::= "Game of Thrones" | "Yu-Gi-Oh" | "Naruto";
 <techSite> ::= "golem" | "heise" | "chip.de" | "Computer Bild" | "4chan" | "9gag" | "Fefes Blog" | "StackOverflow" | "Twitch" | "w3c schools" | "reddit" | "gutefrage.net";
 <bLang> ::= "perl" | "javascript" | "vb.net" | "processing" | "erlang" | "scheme" | "visual basic" |"LaTeX" | "excel" | "php" | "powershell" | "Pascal" | "c" | "c++" | "haskell";
 <bTech> ::= "framework" | "intelli J" | "blue J"  | "regex" | "php storm" | "vim" | "emacs" | "NFC";
 <bOS> ::= "Ubuntu" | "Arch" | "Gentoo" | "Backtrack Linux" | "FreeBSD" | "OpenBSD";
-<gamez> ::= "LoL" | "Dota" | "Overwatch" | "Heartstone" | "CS:GO" | "Minecraft" | "Fortnite" | "PUBG" | "Rocket Leauge" | "Minesweeper" | "WoW" | "Super Smash Bros" | "O-Game" | "Die Stämme" | "Skaura Beach";
+<gamez> ::= "LoL" | "Dota" | "Overwatch" | "Heartstone" | "CS:GO" | "Minecraft" | "Fortnite" | "PUBG" | "Rocket Leauge" | "Minesweeper" | "WoW" | "Super Smash Bros" | "O-Game" | "Die Stämme" | "Sakura Beach";
 <aufgabe> ::= "Übungsblatt 1" | "Übungsblatt 3" | "Übungsblatt 5" | "das extra Übungsblatt" | "Übungsblatt 0";
 <baseType> ::= "Boolean" | "int" | "float" | "String";
 <complexType> ::= "Rot-Schwarz-Baume" | "Regex" | "Binärbaume" | "Ringbuffer" | "Einfach-Verkettete-Liste" | "Algebraischen Datentypen" | "DLL";
 <zeit> ::= "Letzte Woche" | "Gestern Nacht" | "Letztes Wochenende" | "Damals in der 10ten" | "Im ersten Semester" | "Bei der letzten ONOC" | "In den Semesterferien";
 <jsFrameworkName> ::= "node" | "jquery" | "javapoly" | "react" | "redux" | "ember" | "browserify" | "bootstrap" | "handle-bar" | "mustache" | "require" | "beefy";
-<jsFramework> ::= <jsFrameworkName> ".js";
+<jsFramework> ::= <jsFrameworkName>".js";
 <framework> ::= "spring" | <jsFramework> | "primefaces" | "template haskell" | "spray" | "akka" | "couchDB" | "ElasticSearch" | "wordpress" | "MariaDB" | "MongoDB";
 <food> ::= "Bifi" | "Bifi-Roll" | "Carazza" | "Doritos" | "Pizza";
 <fritzProdukt> ::= "kola" | "melone" | "kaffe kola" | "orange" | "misch-masch" | "mate";
