@@ -30,7 +30,7 @@ let spec=`<bSentence> ::=
 <bLang> ::= "perl" | "javascript" | "vb.net" | "processing" | "erlang" | "scheme" | "visual basic" |"LaTeX" | "excel" | "php" | "powershell" | "Pascal" | "c" | "c++" | "haskell";
 <bTech> ::= "framework" | "intelli J" | "blue J"  | "regex" | "php storm" | "vim" | "emacs" | "NFC";
 <bOS> ::= "Ubuntu" | "Arch" | "Gentoo" | "Backtrack Linux" | "FreeBSD" | "OpenBSD";
-<gamez> ::= "LoL" | "Dota" | "Overwatch" | "Heartstone" | "CS:GO" | "Minecraft";
+<gamez> ::= "LoL" | "Dota" | "Overwatch" | "Heartstone" | "CS:GO" | "Minecraft" | "Fortnite" | "PUBG" | "Rocket Leauge" | "Minesweeper" | "WoW" | "Super Smash Bros" | "O-Game" | "Die Stämme" | "Skaura Beach";
 <aufgabe> ::= "Übungsblatt 1" | "Übungsblatt 3" | "Übungsblatt 5" | "das extra Übungsblatt" | "Übungsblatt 0";
 <baseType> ::= "Boolean" | "int" | "float" | "String";
 <complexType> ::= "Rot-Schwarz-Baume" | "Regex" | "Binärbaume" | "Ringbuffer" | "Einfach-Verkettete-Liste" | "Algebraischen Datentypen" | "DLL";
