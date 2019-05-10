@@ -21,7 +21,8 @@ let spec=`<bSentence> ::=
 "Ich sauge mir ebend die neue Folge von "<anime>"." |
 "Ich habe in der letzten Vorlesung "<complexType>" nicht ganz verstanden, aber in "<bLang>" mit "<bTech>" brauch ichs eh nicht." |
 "Ich finde "<brand>" besser als "<brand>" weil die Unterstützung für "<bTech>" besser ist." |
-"Ich schlage vor wir benutzen "<cloud>" anstatt git für die Übungszettel";
+"Ich schlage vor wir benutzen "<cloud>" anstatt git für die Übungszettel" |
+"Wer kennt <chatservice>? Suche ne neue community für <gamez>.";
 
 <brand> ::= "Apple" | "Lenovo" | "Alienware" | "Razer" | "Microsoft" | "Burger King" | "KFC" | "SUSE" | "Blizzard" |" Riot";
 <serie> ::= "Game of Thrones" | "Yu-Gi-Oh" | "Naruto";
@@ -40,4 +41,5 @@ let spec=`<bSentence> ::=
 <food> ::= "Bifi" | "Bifi-Roll" | "Carazza" | "Doritos" | "Pizza";
 <fritzProdukt> ::= "kola" | "melone" | "kaffe kola" | "orange" | "misch-masch" | "mate";
 <drink> ::= "Matcha" | "Club Mate" | "Club Mate Granat" | "Fritz" <fritzProdukt> | "kaffee" | "Frappochino";
-<cloud> ::= "owncloud" | "dropbox" | "Google Drive" | "Seafile" | "Telegram File Upload" | "iCloud";`
+<cloud> ::= "owncloud" | "dropbox" | "Google Drive" | "Seafile" | "Telegram File Upload" | "iCloud";
+<chatservice> ::= "nen nicen Discord" | "l33te Telegram Gruppen" | "dope Slack Channelz" | "dope Mattermost Channelz" | "nice subreddits";`
